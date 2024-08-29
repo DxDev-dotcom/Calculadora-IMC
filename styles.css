@@ -18,8 +18,8 @@ h1 {
 input {
     width: 90%;
     height: 30px;
-    margin-bottom: 16px;
-
+    margin-bottom: 20px;
+margin-top: 16px;
     border-bottom-width: 1px;
     border-top-width: 0;
     border-left-width: 0;
@@ -33,10 +33,11 @@ input:focus {
 }
 
 .content {
+  
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
     background-color: white;
-    max-width: 900px;
+    max-width: 90%;
     padding: 10px;
     margin: auto;
 
@@ -48,4 +49,21 @@ input:focus {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+button{
+  width: 50%;
+  height: 30px;
+  margin: 16px;
+  border-radius: 16px;
+  background-color: chocolate;
+  color: white;
+  border: none;
+}
+button:active{
+  background-color: orange;
+}
+#areaItens{
+  
+  width: 76%;
 }
