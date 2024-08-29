@@ -15,24 +15,29 @@
             <div
                 style=" max-width: 600px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
                 <h1 class="animate ">Calculadora IMC</h1>
-                <h5 style="  width: 400px; text-align: center; font-style:italic ;">O IMC é uma medida simples que
+                <h5 style="  width: 90%; text-align: center; font-style:italic ;">O IMC é uma medida simples que
                     relaciona o
                     peso e a altura,
                     ajudando a avaliar se o peso está adequado.</h5>
 
-                <input id="peso" type="text" placeholder="Seu peso">
+                <input id="peso" type="number" placeholder="Seu peso">
                 <input id="altura" type="number" placeholder="Sua altura">
                 <p style=" margin-bottom: 10px; width: 300px; text-align:justify; font-size: 13px ;">
                     Os valores de IMC são classificados da seguinte forma (de acordo com a Organização Mundial da Saúde
                     -
                     OMS):
                 </p>
-                <ul style=" font-size: 13px ; width: 200px;">
+                <div id="areaItens">
+                  
+                   <ul style="  font-size: 15px ; width: 90%; align-items:flex-start; display:flex; flex-direction:column; text-align:;">
                     <li id="abaixoDe">Abaixo de 18,5: Abaixo do peso</li>
                     <li id="entre">Entre 18,5 e 24,9: Peso normal</li>
                     <li id="sobrepeso">Entre 25 e 29,9: Sobrepeso</li>
                     <li>Acima de 30: Obesidade</li>
                 </ul>
+                  
+                </div>
+               
                 <button id="calcular">Calcular</button>
             </div>
 
